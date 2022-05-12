@@ -57,8 +57,12 @@ class MyFooter extends HTMLElement {
                     <i class="fa fa-linkedin"></i>
                 </a>
                 <a href ="mailto:michael.lewis3126@gmail.com" class="em" title="Contact me at michael.lewis3126@gmail.com">
-                        <i class="fa fa-envelope-o"></i>
-                    </a>
+                    <i class="fa fa-envelope-o"></i>
+                </a>
+                <a href='https://github.com/mewisss' class="git" title="My GitHub Repository">
+                <i class="fa fa-github"></i>
+                </a>
+                
             </div>
         </div>
     </div>

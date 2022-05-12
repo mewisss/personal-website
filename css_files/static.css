@@ -223,6 +223,10 @@ body{
     background-color: #007bb6;
 }
 
+.effect .git{
+    background-color: rgb(44, 3, 78);
+}
+
 .effect a {
     transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
 }
