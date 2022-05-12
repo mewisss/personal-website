@@ -1,0 +1,90 @@
+/* ------ styles.css -----*/
+/*
+    This CSS file contains
+
+
+
+*/
+
+.index_nav{
+    color: #A288E3;
+}
+.about_nav{
+    color: white;
+}
+.projects_nav{
+    color: white;
+}
+.experience_nav{
+    color: white;
+}
+
+/* ------ Main Body -----*/
+.main{
+    margin-left:15%;
+    margin-right: 5%;
+    margin-top: 5%;
+    position:relative;
+    background-color: #0D0A0B;
+}
+
+.main p{
+    text-align: center;
+    font-size:calc(100% + 2.5vw);
+    color:#F3EFF5;
+    line-height: 1.5;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.main{
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    position:relative;
+    background-color: #0D0A0B;
+}
+button {
+    background-color: #A288E3;
+    padding: 1%;
+    border-radius: 10px;
+    font-size:40px;
+    border:white solid 2px;
+}
+
+.btn{
+    text-align: center; 
+    margin-bottom: 2%;
+}
+
+.btn a{
+    text-decoration: solid;
+    color:black;
+}
+
+button:hover,
+button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover a{
+    color:white;
+    transition: .25s;
+}
+
+
+
+@media(max-width:988px){
+    .main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .main p{
+        font-size:calc(100% + 3.5vw);
+    }
+
+}
+
+
