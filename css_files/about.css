@@ -10,6 +10,9 @@
 .experience_nav{
     color: white;
 }
+.contact_nav{
+    color: white;
+}
 
 .main-about .main-title{
     position:relative;
@@ -90,6 +93,7 @@
     color: #ffffff;
     text-align: center;
     border-radius: 5px;
+
 }
 
 .abt-back h3{
@@ -113,6 +117,8 @@
     padding-right: 4%;
     margin-right: 4%;
     border-left: 3px solid white;
+    justify-content: center;
+    align-content: center;
 }
 
 
@@ -124,7 +130,7 @@
 .abt-back a {
     font-size: 50px;
     text-align:center;
-    text-decoration: none;
+    text-decoration:solid;
     color:white;
     transition: 1s;
 }
@@ -189,6 +195,10 @@
     .main-about h1{
         font-size: 40px;
     }
+    .abt-back a{
+        font-size: 26px;
+        margin-left: 5%;
+        }
 
 }
 

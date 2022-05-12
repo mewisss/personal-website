@@ -1,6 +1,7 @@
 class MyHeader extends HTMLElement {
   connectedCallback(){
     this.innerHTML = `
+    
     <section class="nav">
     <div class ="logo">
         <h1 class="tr"><a href="index.html">
@@ -22,6 +23,7 @@ class MyHeader extends HTMLElement {
             <li><a class = "about_nav" href="aboutme.html">about me</a></li>
             <li><a class = "projects_nav" href="projects.html">projects</a></li>
             <li><a class = "experience_nav" href="experience.html">experience</a></li>
+            <li><a class = "contact_nav" href="contact.html">contact</a></li>
         </ul>
     </div>
 </section>

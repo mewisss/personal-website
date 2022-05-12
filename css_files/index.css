@@ -7,7 +7,7 @@
 */
 
 .index_nav{
-    color: #A288E3;
+    color: #a288e3;
 }
 .about_nav{
     color: white;
@@ -16,6 +16,9 @@
     color: white;
 }
 .experience_nav{
+    color: white;
+}
+.contact_nav{
     color: white;
 }
 
@@ -30,7 +33,7 @@
 
 .main p{
     text-align: center;
-    font-size:calc(100% + 2.5vw);
+    font-size:calc(100% + 1.9vw);
     color:#F3EFF5;
     line-height: 1.5;
     margin-top: 7%;
@@ -54,7 +57,7 @@ button {
 
 .btn{
     text-align: center; 
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .btn a{

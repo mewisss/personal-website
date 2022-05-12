@@ -1,9 +1,7 @@
 Nav bar working -> Used checkbox method
 
-To Do:               
-- Thumbnail                 3     
+To Do:                
 - Contact page              5
-- GitHub link               5
 - Project Page              
     -need projects          9
 - About Page  

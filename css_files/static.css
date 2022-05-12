@@ -247,10 +247,10 @@ body{
 
 @media(max-width:998px){
     .footer h1{
-        font-size: 30px;
+        font-size: 27px;
     }
     .footer h3{
-        font-size:15px;
+        font-size:12px;
     }
 
     .effect a{
@@ -262,10 +262,9 @@ body{
         align-items: center;
         justify-content: center;
         border-radius: 10px;
-        margin-right: 20px;
+        margin-right: 10px;
         font-size: 15px;
         position: relative;
-        transition: s;
     }
 
 }
