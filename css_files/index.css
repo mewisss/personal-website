@@ -52,7 +52,7 @@ button {
     padding: 1%;
     border-radius: 10px;
     font-size:40px;
-    border:white solid 2px;
+    border:white solid 1px;
 }
 
 .btn{
@@ -86,6 +86,10 @@ button:hover a{
     }
     .main p{
         font-size:calc(100% + 3.5vw);
+    }
+    button{
+        font-size: 20px;
+        margin-bottom: 5%;
     }
 
 }

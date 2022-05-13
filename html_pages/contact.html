@@ -21,15 +21,45 @@
 
 
 <my-header></my-header>
-
+<div class ="main-title">
+    <h1>contact</h1>
+</div>
 <body>
 <section class= "main-contact">
-    <div class ="main-title">
-            <h1>contact</h1>
+
+
+<div class="row">
+    <div> <i class="fa fa-home"></i>
+        <span>
+            <h5>Melbourne, Victoria</h5>
+        </span>
     </div>
+
+    <div> <i class="fa fa-envelope-o"></i>
+        <span>
+            <h5>michael.lewis3126@gmail.com</h5>
+        </span>
+    </div>
+
+</div>
+    
+<div class="contact-col">
+    <form action="/forms/form-handler.php" method="post">
+        <input type ="text" name="name" placeholder = "enter your name" required>
+        <input type ="email" name="email" placeholder = "enter email address" required>
+        <input type ="text" name="subject" placeholder = "enter subject" required>
+        <textarea rows="8" name="message" placeholder="message"required></textarea>
+        <button type="submit" class="hero-btn red-btn"> send message</button>
+    </form>
+
+
+</div>
+
+
 </section>
 
 </body>
+
 
 <my-footer></my-footer>
 
