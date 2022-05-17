@@ -83,6 +83,7 @@ button:hover a{
     .main{
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 10%;
     }
     .main p{
         font-size:calc(100% + 3.5vw);

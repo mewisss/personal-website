@@ -4,13 +4,14 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from ='web.michael.lewis3126@gmail.com';
+$email_from ='info@itsmichaellewis.com';
 
-$email_subject ='New Inquiry'
-$email_body =   "User Name: $name.\n".
-                "User Email: $visitor_email.\n".
+$email_subject ='New Form Submissions'
+
+$email_body = "User Name: $name.\n".
+                "User email: $visitor_email.\n".
                 "Subject: $subject.\n".
-                "User Message: $name.\n".;
+                "User Message: $message.\n";
 
 $to ='michael.lewis3126@gmail.com';
 
@@ -20,6 +21,7 @@ $headers .= :"Reply-To: $visitor_email \r\n";
 
 mail($to,$email_subject, $email_body,$headers)
 
-header("LocationL: /html_pages/contact.html")
+header("Location: /contact.html")
 
 ?>
+

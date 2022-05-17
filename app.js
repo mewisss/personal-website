@@ -1,7 +1,7 @@
-app.js --> 
 class MyHeader extends HTMLElement {
   connectedCallback(){
     this.innerHTML = `
+    
     <section class="nav">
     <div class ="logo">
         <h1 class="tr"><a href="index.html">
@@ -13,33 +13,24 @@ class MyHeader extends HTMLElement {
         </h1>
     </div>
 
-    <div class ="nav-links" id="navLinks">
-        <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a class = "index_nav" href="index.html">home</a></li>
-                <li><a class = "about_nav" href="aboutme.html">about me</a></li>
-                <li><a class = "projects_nav" href="projects.html">projects</a></li>
-                <li><a class = "experience_nav" href="experience.html">experience</a></li>
-            </ul>
+    <div class ="nav-links">
+        <input type = "checkbox" id= "check">
+        <label for ="check" class ="checkbtn">
+         <i class="fa fa-bars"></i>
+         </label>
+        <ul>
+            <li><a class = "index_nav" href="index.html">home</a></li>
+            <li><a class = "about_nav" href="aboutme.html">about me</a></li>
+            <li><a class = "projects_nav" href="projects.html">projects</a></li>
+            <li><a class = "experience_nav" href="experience.html">experience</a></li>
+
+        </ul>
     </div>
-    <i class="fa fa-bars" onclick="showMenu()"></i>
 </section>
-<script>
-var aa = document.getElementsByClassName("navLinks");
 
-    
-function showMenu(){
-    console.log(aa)
-    aa.style.right = "0px";
-}
 
-function hideMenu(){
-    aa.style.right = "-200px";
-}
-
-</script>
-
-`
+`          
+/*  <li><a class = "contact_nav" href="contact.html">contact</a></li>*/
 
   }
 }
@@ -69,8 +60,12 @@ class MyFooter extends HTMLElement {
                     <i class="fa fa-linkedin"></i>
                 </a>
                 <a href ="mailto:michael.lewis3126@gmail.com" class="em" title="Contact me at michael.lewis3126@gmail.com">
-                        <i class="fa fa-envelope-o"></i>
-                    </a>
+                    <i class="fa fa-envelope-o"></i>
+                </a>
+                <a href='https://github.com/mewisss' class="git" title="My GitHub Repository">
+                <i class="fa fa-github"></i>
+                </a>
+                
             </div>
         </div>
     </div>
